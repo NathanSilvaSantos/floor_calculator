@@ -1,12 +1,12 @@
-/* Converte os dados de entrada em modelo 
-  e realiza o cálculo da quantidade de pisos e metragem
-*/
-
-
 import 'package:floor_calculator/helpers/parse_helper.dart';
 import 'package:floor_calculator/models/floor_model.dart';
 import 'package:floor_calculator/models/result_model.dart';
 import 'package:floor_calculator/models/room_model.dart';
+
+/* 
+  Converte os dados de entrada em modelo 
+  e realiza o cálculo da quantidade de pisos e metragem
+*/
 
 class CalculatorController {
   final room = new RoomModel();
