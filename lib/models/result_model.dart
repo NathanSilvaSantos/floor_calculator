@@ -1,3 +1,4 @@
+// Guarda as informações de saída do cálculo
 class ResultModel {
   double areaFloor;
   int piecesByWidth;

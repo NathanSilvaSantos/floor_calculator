@@ -1,3 +1,4 @@
+// Guarda as infromações de entrada sobre o cômodo
 class RoomModel {
   double length;
   double width;
