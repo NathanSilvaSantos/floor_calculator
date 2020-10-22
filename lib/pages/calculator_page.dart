@@ -29,6 +29,7 @@ class _CalculatorPageState extends State<CalculatorPage> {
             'Cumprimento (Metros)',
             onSaved: _controller.setRoomLength,
           ),
+          _buildVerticalSpace(),
           _buildHeaderText("Dimensões do piso"),
           _buildVerticalSpace(),
           _buildNumberInputField(
@@ -39,6 +40,11 @@ class _CalculatorPageState extends State<CalculatorPage> {
           _buildNumberInputField(
             'Cumprimento (Centimetros)',
             onSaved: _controller.setFloorLength,
+          ),
+          _buildVerticalSpace(),
+          _buildNumberInputField(
+            'Preço por piso (R\$)',
+            onSaved: _controller.setFloorPrice,
           ),
           _buildVerticalSpace(height: 40),
           RaisedButton(

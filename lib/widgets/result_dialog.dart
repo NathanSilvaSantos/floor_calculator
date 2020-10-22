@@ -27,6 +27,11 @@ class ResultDialog extends StatelessWidget {
           ),
           Divider(),
           ListTile(
+            title: Text("R\$ ${result.totalPrice}"),
+            subtitle: Text("Preço total dos pisos"),
+          ),
+          Divider(),
+          ListTile(
             title: Text("${result.areaWithoutFooter} m²"),
             subtitle: Text("Metragem quadrada sem rodapé"),
           ),
